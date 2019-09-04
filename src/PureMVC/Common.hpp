@@ -48,7 +48,7 @@ else
 // PureMVC include
 #include "PureMVC/PureMVC.hpp"
 
-#if defined(_MSC_VER) || defined(CODEGEARC__) || defined(BORLANDC__) || defined(INTEL_COMPILER)
+#if defined(_MSC_VER) || defined(__CODEGEARC__) || defined(__BORLANDC__) || defined(__INTEL_COMPILER)
 #endif
 
 namespace PureMVC

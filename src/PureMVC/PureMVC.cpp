@@ -674,7 +674,7 @@ IView::~IView(void) { }
     #define INITIALIZER(f)                             \
     static void f(void) __attribute__((constructor));  \
     static void f(void)
-#elif defined(BORLANDC__) || defined(CODEGEARC__)
+#elif defined(__BORLANDC__) || defined(__CODEGEARC__)
     #define CCALL __cdecl
     #define INITIALIZER(f) \
     static void f(void)
@@ -694,7 +694,7 @@ static void CCALL destructPureMVC(void)
 
 INITIALIZER(constructPureMVC)
 {
-#if defined(BORLANDC__) || defined(CODEGEARC__)
+#if defined(__BORLANDC__) || defined(__CODEGEARC__)
 #pragma startup constructPureMVC
 #endif
     try
@@ -759,7 +759,7 @@ BOOL WINAPI DllMain(HINSTANCE /* hinstDLL */, DWORD fdwReason, PVOID /* lpReserv
     }
     return TRUE;  // Successful DLL_PROCESS_ATTACH.
 }
-#elif defined(CODEGEARC__) || defined(BORLANDC__)
+#elif defined(__CODEGEARC__) || defined(__BORLANDC__)
 BOOL WINAPI DllEntryPoint(HINSTANCE /* hinstDLL */, DWORD fdwReason, PVOID /* lpReserved */)
 {
     // Perform actions based on the reason for calling.

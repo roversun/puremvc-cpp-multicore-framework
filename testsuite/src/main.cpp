@@ -16,7 +16,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 // Only available for MacOS 10.5 above
-#if defined(linux) || defined(APPLE__ ) || defined(bsdi__)
+#if defined(__linux) || defined(__APPLE__ ) || defined(__bsdi__)
 #include <execinfo.h>
 #include <cxxabi.h>
 #endif
@@ -119,7 +119,7 @@ int main(int argc , char* argv[])
 /** Print a demangled stack backtrace of the caller function to FILE* out. */
 void print_stacktrace(FILE *out, unsigned int max_frames)
 {
-#if defined(linux) || defined(APPLE__ ) || defined(bsdi__)
+#if defined(__linux) || defined(__APPLE__ ) || defined(__bsdi__)
 
     fprintf(out, "stack trace:\n");
 
