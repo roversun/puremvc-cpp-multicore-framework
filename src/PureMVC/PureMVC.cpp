@@ -814,7 +814,7 @@ static void constructPureMVC(void) __attribute__((constructor));
 static void destructPureMVC(void)
 {
 #if defined(_DEBUG) || defined(DEBUG)
-   std:: cout << "PureMVC library is detached by process!" << std::endl;
+	printf("PureMVC library is detached by process!\n");
 #endif
     try
     {
@@ -829,7 +829,7 @@ static void destructPureMVC(void)
 static void constructPureMVC(void)
 {
 #if defined(_DEBUG) || defined(DEBUG)
-    std:: cout << "PureMVC library is detached by process!" << std::endl;
+	printf("PureMVC library is attached by process!\n");
 #endif
     std::atexit(destructPureMVC);
     try
