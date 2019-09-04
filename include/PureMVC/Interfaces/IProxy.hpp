@@ -6,8 +6,8 @@
 //  Your reuse is governed by the Creative Commons Attribution 3.0 License
 //
 
-#if !defined(__PUREMVC_INTERFACES_IPROXY_HPP__)
-#define __PUREMVC_INTERFACES_IPROXY_HPP__
+#if !defined(PUREMVC_INTERFACES_IPROXY_HPP)
+#define PUREMVC_INTERFACES_IPROXY_HPP
 
 // STL include
 #include <string>

@@ -6,8 +6,8 @@
 //  Your reuse is governed by the Creative Commons Attribution 3.0 License
 //
 
-#if !defined(__PUREMVC_PATTERNS_COMMAND_DELEGATE_COMMAND_HPP__)
-#define __PUREMVC_PATTERNS_COMMAND_DELEGATE_COMMAND_HPP__
+#if !defined(PUREMVC_PATTERNS_COMMAND_DELEGATE_COMMAND_HPP)
+#define PUREMVC_PATTERNS_COMMAND_DELEGATE_COMMAND_HPP
 
 // STL include
 #include <string>

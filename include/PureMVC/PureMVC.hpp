@@ -6,8 +6,8 @@
 //  Your reuse is governed by the Creative Commons Attribution 3.0 License
 //
 
-#if !defined(__PUREMVC_HPP__)
-#define __PUREMVC_HPP__
+#if !defined(PUREMVC_HPP)
+#define PUREMVC_HPP
 
 #if (defined(_WIN32) || defined(_WIN64)) && (defined(_DLL) || defined(USE_DLL))
     #if defined(PUREMVC_API_EXPORT)
@@ -212,8 +212,8 @@ namespace PureMVC
     };
 }
 
-#if !defined(__PUREMVC_INCLUDE__)
-#define __PUREMVC_INCLUDE__
+#if !defined(PUREMVC_INCLUDE)
+#define PUREMVC_INCLUDE
 #include "Interfaces/INotifier.hpp"
 #include "Interfaces/IProxy.hpp"
 #include "Interfaces/INotification.hpp"
@@ -255,6 +255,7 @@ namespace PureMVC
 
     using Interfaces::ICommand;
     using Interfaces::INotification;
+
 
     /**
      * Thread base PureMVC.

@@ -6,8 +6,8 @@
 //  Your reuse is governed by the Creative Commons Attribution 3.0 License
 //
 
-#if !defined(__PUREMVC_PATTERNS_PROXY_PROXY_HPP__)
-#define __PUREMVC_PATTERNS_PROXY_PROXY_HPP__
+#if !defined(PUREMVC_PATTERNS_PROXY_PROXY_HPP)
+#define PUREMVC_PATTERNS_PROXY_PROXY_HPP
 
 // STL include
 #include <string>
