@@ -6,8 +6,8 @@
 //  Your reuse is governed by the Creative Commons Attribution 3.0 License
 //
 
-#if !defined(__PUREMVC_CORE_MODEL_HPP__)
-#define __PUREMVC_CORE_MODEL_HPP__
+#if !defined(PUREMVC_CORE_MODEL_HPP)
+#define PUREMVC_CORE_MODEL_HPP
 
 // STL include
 #include <string>
@@ -15,10 +15,10 @@
 #include <stdexcept>
 #include <cassert>
 // PureMVC include
-#if !defined(__PUREMVC_HPP__)
-#define __PUREMVC_INCLUDE__
+#if !defined(PUREMVC_HPP)
+#define PUREMVC_INCLUDE
 #include "../PureMVC.hpp"
-#endif /* __PUREMVC_HPP__ */
+#endif /* PUREMVC_HPP */
 #if defined(PUREMVC_USES_TR1)
 #if defined(__GNUC__) || defined(__MINGW32__)
 #include <tr1/unordered_map>
@@ -260,4 +260,4 @@ namespace PureMVC
     }
 }
 
-#endif /* __PUREMVC_CORE_MODEL_HPP__ */
+#endif /* PUREMVC_CORE_MODEL_HPP */

@@ -35,4 +35,4 @@ namespace data
     };
 }
 
-#endif /* __PURE_MVC_TEST_COMMAND_3_HPP__ */
+#endif /* PURE_MVC_TEST_COMMAND_3_HPP__ */

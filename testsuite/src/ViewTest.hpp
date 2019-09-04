@@ -6,8 +6,8 @@
 //  Your reuse is governed by the Creative Commons Attribution 3.0 License
 //
 
-#if !defined(__VIEW_TEST_HPP__)
-#define __VIEW_TEST_HPP__
+#if !defined(VIEW_TEST_HPP)
+#define VIEW_TEST_HPP
 
 #include <string>
 #include <map>
@@ -37,4 +37,4 @@ namespace data
     };
 }
 
-#endif /* __VIEW_TEST_HPP__ */
+#endif /* VIEW_TEST_HPP */

@@ -6,8 +6,8 @@
 //  Your reuse is governed by the Creative Commons Attribution 3.0 License
 //
 
-#if !defined(__MODEL_TEST_HERITANCE_HPP__)
-#define __MODEL_TEST_HERITANCE_HPP__
+#if !defined(MODEL_TEST_HERITANCE_HPP)
+#define MODEL_TEST_HERITANCE_HPP
 
 #include <PureMVC/PureMVC.hpp>
 
@@ -48,4 +48,4 @@ namespace data
     };
 }
 
-#endif /* __MODEL_TEST_HERITANCE_HPP__ */
+#endif /* MODEL_TEST_HERITANCE_HPP */

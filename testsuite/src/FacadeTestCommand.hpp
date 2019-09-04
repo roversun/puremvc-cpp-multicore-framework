@@ -6,8 +6,8 @@
 //  Your reuse is governed by the Creative Commons Attribution 3.0 License
 //
 
-#if !defined(__FACADE_TEST_COMMAND_HPP__)
-#define __FACADE_TEST_COMMAND_HPP__
+#if !defined(FACADE_TEST_COMMAND_HPP)
+#define FACADE_TEST_COMMAND_HPP
 
 #include <PureMVC/PureMVC.hpp>
 #include "FacadeTestVO.hpp"
@@ -33,4 +33,4 @@ namespace data
     };
 }
 
-#endif /* __FACADE_TEST_COMMAND_HPP__ */
+#endif /* FACADE_TEST_COMMAND_HPP */

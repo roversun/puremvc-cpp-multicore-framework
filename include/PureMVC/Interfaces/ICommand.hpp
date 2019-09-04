@@ -10,10 +10,10 @@
 #define PUREMVC_INTERFACES_ICOMMMAND_HPP
 
 // PureMVC include
-#if !defined(__PUREMVC_HPP__)
-#define __PUREMVC_INCLUDE__
+#if !defined(PUREMVC_HPP)
+#define PUREMVC_INCLUDE
 #include "../PureMVC.hpp"
-#endif /* __PUREMVC_HPP__ */
+#endif /* PUREMVC_HPP */
 
 #include "INotifier.hpp"
 #include "INotification.hpp"
@@ -44,4 +44,4 @@ namespace PureMVC
     }
 }
 
-#endif /* __PUREMVC_INTERFACES_ICOMMMAND_HPP__ */
+#endif /* PUREMVC_INTERFACES_ICOMMMAND_HPP */

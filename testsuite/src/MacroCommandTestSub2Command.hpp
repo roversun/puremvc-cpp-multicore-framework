@@ -6,8 +6,8 @@
 //  Your reuse is governed by the Creative Commons Attribution 3.0 License
 //
 
-#if !defined(__MACRO_COMMAND_TEST_SUB2_COMMAND_HPP__)
-#define __MACRO_COMMAND_TEST_SUB2_COMMAND_HPP__
+#if !defined(MACRO_COMMAND_TEST_SUB2_COMMAND_HPP)
+#define MACRO_COMMAND_TEST_SUB2_COMMAND_HPP
 
 #include "MacroCommandTestVO.hpp"
 
@@ -38,4 +38,4 @@ namespace data
     };
 }
 
-#endif /* __MACRO_COMMAND_TEST_SUB2_COMMAND_HPP__ */
+#endif /* MACRO_COMMAND_TEST_SUB2_COMMAND_HPP */

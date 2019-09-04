@@ -33,7 +33,7 @@ typedef pthread_mutex_t puremvc_fast_mutex_t;
 typedef std::pair<pthread_t, std::pair<bool, pthread_cond_t> > puremvc_thread_t;
 #endif
 
-#if defined(__APPLE__)
+#if defined(APPLE__)
 #define PTHREAD_MUTEX_RECURSIVE_NP PTHREAD_MUTEX_RECURSIVE
 #endif
 
@@ -674,7 +674,7 @@ IView::~IView(void) { }
     #define INITIALIZER(f)                             \
     static void f(void) __attribute__((constructor));  \
     static void f(void)
-#elif defined(__BORLANDC__) || defined(__CODEGEARC__)
+#elif defined(BORLANDC__) || defined(CODEGEARC__)
     #define CCALL __cdecl
     #define INITIALIZER(f) \
     static void f(void)
@@ -694,7 +694,7 @@ static void CCALL destructPureMVC(void)
 
 INITIALIZER(constructPureMVC)
 {
-#if defined(__BORLANDC__) || defined(__CODEGEARC__)
+#if defined(BORLANDC__) || defined(CODEGEARC__)
 #pragma startup constructPureMVC
 #endif
     try
@@ -759,7 +759,7 @@ BOOL WINAPI DllMain(HINSTANCE /* hinstDLL */, DWORD fdwReason, PVOID /* lpReserv
     }
     return TRUE;  // Successful DLL_PROCESS_ATTACH.
 }
-#elif defined(__CODEGEARC__) || defined(__BORLANDC__)
+#elif defined(CODEGEARC__) || defined(BORLANDC__)
 BOOL WINAPI DllEntryPoint(HINSTANCE /* hinstDLL */, DWORD fdwReason, PVOID /* lpReserved */)
 {
     // Perform actions based on the reason for calling.

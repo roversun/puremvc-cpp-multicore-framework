@@ -6,8 +6,8 @@
 //  Your reuse is governed by the Creative Commons Attribution 3.0 License
 //
 
-#if !defined(__SIMPLE_COMMAND_TEST_VO_HPP__)
-#define __SIMPLE_COMMAND_TEST_VO_HPP__
+#if !defined(SIMPLE_COMMAND_TEST_VO_HPP)
+#define SIMPLE_COMMAND_TEST_VO_HPP
 
 namespace data
 {
@@ -31,4 +31,4 @@ namespace data
     };
 }
 
-#endif /* __SIMPLE_COMMAND_TEST_VO_HPP__ */
+#endif /* SIMPLE_COMMAND_TEST_VO_HPP */

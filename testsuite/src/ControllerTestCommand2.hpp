@@ -6,8 +6,8 @@
 //  Your reuse is governed by the Creative Commons Attribution 3.0 License
 //
 
-#if !defined(__CONTROLLER_TEST_COMMAND2_HPP__)
-#define __CONTROLLER_TEST_COMMAND2_HPP__
+#if !defined(CONTROLLER_TEST_COMMAND2_HPP)
+#define CONTROLLER_TEST_COMMAND2_HPP
 
 #include <PureMVC/PureMVC.hpp>
 #include "ControllerTestVO.hpp"
@@ -46,4 +46,4 @@ namespace data
     };
 }
 
-#endif /* __CONTROLLER_TEST_COMMAND2_HPP__ */
+#endif /* CONTROLLER_TEST_COMMAND2_HPP */

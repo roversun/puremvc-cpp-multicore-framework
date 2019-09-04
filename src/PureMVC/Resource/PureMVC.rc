@@ -15,13 +15,13 @@ BEGIN
                         VALUE "ProductVersion", "1.0.0.0" "\0"
 #if defined(DEBUG)
                         VALUE "OriginalFilename", "PureMVCd.dll" "\0"
-#if defined(__CODEGEARC__) || defined(__BORLANDC__)
+#if defined(CODEGEARC__) || defined(BORLANDC__)
                         VALUE "InternalName", "PureMVC (Debug - Embarcadero C++ Builder)" "\0"
                         VALUE "ProductName", "PureMVC (Debug - Embarcadero C++ Builder)" "\0"
 #elif defined(_MSC_VER)
                         VALUE "InternalName", "PureMVC (Debug - Microsoft Visual C++)" "\0"
                         VALUE "ProductName", "PureMVC (Debug - Microsoft Visual C++)" "\0"
-#elif defined(__INTEL_COMPILER)
+#elif defined(INTEL_COMPILER)
                         VALUE "InternalName", "PureMVC (Debug - Intel C++)" "\0"
                         VALUE "ProductName", "PureMVC (Debug - Intel C++)" "\0"
 #elif defined(__MINGW32__)
@@ -39,13 +39,13 @@ BEGIN
 #endif
 #else
                         VALUE "OriginalFilename", "PureMVC.dll" "\0"
-#if defined(__CODEGEARC__) || defined(__BORLANDC__)
+#if defined(CODEGEARC__) || defined(BORLANDC__)
                         VALUE "InternalName", "PureMVC (Release - Embarcadero C++ Builder)" "\0"
                         VALUE "ProductName", "PureMVC (Release - Embarcadero C++ Builder)" "\0"
 #elif defined(_MSC_VER)
                         VALUE "InternalName", "PureMVC (Release - Microsoft Visual C++)" "\0"
                         VALUE "ProductName", "PureMVC (Release - Microsoft Visual C++)" "\0"
-#elif defined(__INTEL_COMPILER)
+#elif defined(INTEL_COMPILER)
                         VALUE "InternalName", "PureMVC (Release - Intel C++)" "\0"
                         VALUE "ProductName", "PureMVC (Release - Intel C++)" "\0"
 #elif defined(__MINGW32__)

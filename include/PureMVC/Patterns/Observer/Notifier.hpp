@@ -12,10 +12,10 @@
 // STL include
 #include <string>
 // PureMVC include
-#if !defined(__PUREMVC_HPP__)
-#define __PUREMVC_INCLUDE__
+#if !defined(PUREMVC_HPP)
+#define PUREMVC_INCLUDE
 #include "../../PureMVC.hpp"
-#endif /* __PUREMVC_HPP__ */
+#endif /* PUREMVC_HPP */
 
 #include "../../Interfaces/INotifier.hpp"
 #include "../../Interfaces/IFacade.hpp"
@@ -135,4 +135,4 @@ namespace PureMVC
     }
 }
 
-#endif /* __PUREMVC_PATTERNS_OBSERVER_NOTIFIER_HPP__ */
+#endif /* PUREMVC_PATTERNS_OBSERVER_NOTIFIER_HPP */

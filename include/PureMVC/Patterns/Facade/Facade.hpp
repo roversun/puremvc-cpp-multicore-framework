@@ -15,10 +15,10 @@
 #include <stdexcept>
 #include <cassert>
 // PureMVC include
-#if !defined(__PUREMVC_HPP__)
-#define __PUREMVC_INCLUDE__
+#if !defined(PUREMVC_HPP)
+#define PUREMVC_INCLUDE
 #include "../../PureMVC.hpp"
-#endif /* __PUREMVC_HPP__ */
+#endif /* PUREMVC_HPP */
 
 #include "../../Interfaces/IFacade.hpp"
 #include "../../Interfaces/ICommand.hpp"
@@ -412,4 +412,5 @@ namespace PureMVC
     }
 }
 
-#endif /* __PUREMVC_PATTERNS_FACADE_FACADE_HPP__ */
+#endif /* PUREMVC_PATTERNS_FACADE_FACADE_HPP */
+

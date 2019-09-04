@@ -6,8 +6,8 @@
 //  Your reuse is governed by the Creative Commons Attribution 3.0 License
 //
 
-#if !defined(__FACADE_TEST_VO_HPP__)
-#define __FACADE_TEST_VO_HPP__
+#if !defined(FACADE_TEST_VO_HPP)
+#define FACADE_TEST_VO_HPP
 
 namespace data
 {
@@ -34,4 +34,4 @@ namespace data
     };
 }
 
-#endif /* __FACADE_TEST_VO_HPP__ */
+#endif /* FACADE_TEST_VO_HPP */

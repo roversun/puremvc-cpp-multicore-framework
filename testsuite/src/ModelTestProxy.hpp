@@ -6,8 +6,8 @@
 //  Your reuse is governed by the Creative Commons Attribution 3.0 License
 //
 
-#if !defined(__MODEL_TEST_PROXY_HPP__)
-#define __MODEL_TEST_PROXY_HPP__
+#if !defined(MODEL_TEST_PROXY_HPP)
+#define MODEL_TEST_PROXY_HPP
 
 #include <PureMVC/PureMVC.hpp>
 
@@ -40,4 +40,4 @@ namespace data
     char const* const ModelTestProxy::ON_REMOVE_CALLED = "onRemove Called";
 }
 
-#endif /* __MODEL_TEST_PROXY_HPP__ */
+#endif /* MODEL_TEST_PROXY_HPP */

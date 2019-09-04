@@ -15,10 +15,10 @@
 #include <exception>
 #include <stdexcept>
 // PureMVC include
-#if !defined(__PUREMVC_HPP__)
-#define __PUREMVC_INCLUDE__
+#if !defined(PUREMVC_HPP)
+#define PUREMVC_INCLUDE
 #include "../../PureMVC.hpp"
-#endif /* __PUREMVC_HPP__ */
+#endif /* PUREMVC_HPP */
 
 #include "../../Interfaces/IIterator.hpp"
 
@@ -460,4 +460,5 @@ namespace PureMVC
     }
 }
 
-#endif /* __PUREMVC_PATTERNS_ITERATOR_ITERATOR_HPP__ */
+#endif /* PUREMVC_PATTERNS_ITERATOR_ITERATOR_HPP */
+

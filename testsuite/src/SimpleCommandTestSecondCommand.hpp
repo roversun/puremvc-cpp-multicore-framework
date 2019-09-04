@@ -6,8 +6,8 @@
 //  Your reuse is governed by the Creative Commons Attribution 3.0 License
 //
 
-#if !defined(__SIMPLE_COMMAND_TEST_SECOND_COMMAND_HPP__)
-#define __SIMPLE_COMMAND_TEST_SECOND_COMMAND_HPP__
+#if !defined(SIMPLE_COMMAND_TEST_SECOND_COMMAND_HPP)
+#define SIMPLE_COMMAND_TEST_SECOND_COMMAND_HPP
 
 #include <PureMVC/PureMVC.hpp>
 #include "SimpleCommandTestVO.hpp"
@@ -43,4 +43,4 @@ namespace data
     };
 }
 
-#endif /* __SIMPLE_COMMAND_TEST_SECOND_COMMAND_HPP__ */
+#endif /* SIMPLE_COMMAND_TEST_SECOND_COMMAND_HPP */

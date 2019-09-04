@@ -12,10 +12,10 @@
 // STL include
 #include <string>
 // PureMVC include
-#if !defined(__PUREMVC_HPP__)
-#define __PUREMVC_INCLUDE__
+#if !defined(PUREMVC_HPP)
+#define PUREMVC_INCLUDE
 #include "../PureMVC.hpp"
-#endif /* __PUREMVC_HPP__ */
+#endif /* PUREMVC_HPP */
 
 namespace PureMVC
 {
@@ -103,4 +103,4 @@ namespace PureMVC
     }
 }
 
-#endif /* __PUREMVC_INTERFACES_INOTIFICATION_HPP__ */
+#endif /* PUREMVC_INTERFACES_INOTIFICATION_HPP */

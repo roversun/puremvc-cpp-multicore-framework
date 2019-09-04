@@ -26,9 +26,9 @@
 //
 // Automatically link PureMVC library.
 //
-#if defined(_MSC_VER) || defined(__CODEGEARC__) || defined(__BORLANDC__) || defined(__INTEL_COMPILER) || defined(__DMC__)
+#if defined(_MSC_VER) || defined(CODEGEARC__) || defined(BORLANDC__) || defined(INTEL_COMPILER) || defined(__DMC__)
     #if !defined(PUREMVC_API_EXPORT)
-        #if defined(__MSVC_RUNTIME_CHECKS) && !defined(_DEBUG) && !defined(DEBUG)
+        #if defined(MSVC_RUNTIME_CHECKS) && !defined(_DEBUG) && !defined(DEBUG)
         #pragma message("Using the /RTC option without specifying a debug runtime will lead to linker errors")
         #pragma message("Hint: go to the code generation options and switch to one of the debugging runtimes")
         #error "Incompatible build options"
@@ -77,20 +77,20 @@
 #define PUREMVC_USES_TR1
 #endif
 
-#if (!(defined(_WIN32) || defined(_WIN64)) && defined(__STDC_HOSTED__) && __STDC_HOSTED__) || defined(__GXX_EXPERIMENTAL_CPP0X__)
+#if (!(defined(_WIN32) || defined(_WIN64)) && defined(STDC_HOSTED__) && __STDC_HOSTED__) || defined(GXX_EXPERIMENTAL_CPP0X__)
 #define PUREMVC_INTEL_STDCXX0X
 #endif
 #if defined(_MSC_VER) && (_MSC_VER >= 1600)
 #define PUREMVC_INTEL_STDCXX0X
 #endif
 
-#if defined(__INTEL_COMPILER)
+#if defined(INTEL_COMPILER)
 #  define PUREMVC_INTEL_CXX_VERSION __INTEL_COMPILER
-#elif defined(__ICL)
+#elif defined(ICL)
 #  define PUREMVC_INTEL_CXX_VERSION __ICL
-#elif defined(__ICC)
+#elif defined(ICC)
 #  define PUREMVC_INTEL_CXX_VERSION __ICC
-#elif defined(__ECC)
+#elif defined(ECC)
 #  define PUREMVC_INTEL_CXX_VERSION __ECC
 #endif
 
@@ -349,4 +349,4 @@ namespace PureMVC
     };
 }
 
-#endif /* __PUREMVC_HPP__ */
+#endif /* PUREMVC_HPP */

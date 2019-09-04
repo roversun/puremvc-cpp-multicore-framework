@@ -6,8 +6,8 @@
 //  Your reuse is governed by the Creative Commons Attribution 3.0 License
 //
 
-#if !defined(__PUREMVC_COMMON_HPP__)
-#define __PUREMVC_COMMON_HPP__
+#if !defined(PUREMVC_COMMON_HPP)
+#define PUREMVC_COMMON_HPP
 #define PUREMVC_API_EXPORT
 
 #if defined(_MSC_VER)
@@ -48,7 +48,7 @@ else
 // PureMVC include
 #include "PureMVC/PureMVC.hpp"
 
-#if defined(_MSC_VER) || defined(__CODEGEARC__) || defined(__BORLANDC__) || defined(__INTEL_COMPILER)
+#if defined(_MSC_VER) || defined(CODEGEARC__) || defined(BORLANDC__) || defined(INTEL_COMPILER)
 #endif
 
 namespace PureMVC
@@ -346,4 +346,4 @@ using namespace PureMVC::Interfaces;
 using namespace PureMVC::Patterns;
 using namespace PureMVC::Core;
 
-#endif /* __PUREMVC_COMMON_HPP__ */
+#endif /* PUREMVC_COMMON_HPP */

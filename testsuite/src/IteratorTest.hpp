@@ -6,8 +6,8 @@
 //  Your reuse is governed by the Creative Commons Attribution 3.0 License
 //
 
-#if !defined(__ITERATOR_TEST_HPP__)
-#define __ITERATOR_TEST_HPP__
+#if !defined(ITERATOR_TEST_HPP)
+#define ITERATOR_TEST_HPP
 
 #include <PureMVC/PureMVC.hpp>
 
@@ -35,4 +35,4 @@ namespace data
         };
 }
 
-#endif /* __ITERATOR_TEST_HPP__ */
+#endif /* ITERATOR_TEST_HPP */
